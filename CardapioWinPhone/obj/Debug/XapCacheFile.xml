@@ -1,0 +1,32 @@
+﻿<xapCache source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Bin\Debug\CardapioWinPhone_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="17/08/2016 10:47:52">
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="17/08/2016 10:47:51" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\CardapioWinPhone.dll" archivePath="CardapioWinPhone.dll" lastWriteTime="17/08/2016 10:47:51" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="17/08/2016 09:56:22" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="06/02/2015 03:37:50" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Libraries\Microsoft.Phone.Controls.Maps.dll" archivePath="Microsoft.Phone.Controls.Maps.dll" lastWriteTime="06/02/2015 03:37:50" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.dll" archivePath="System.Net.Http.dll" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll" archivePath="System.Net.Http.Extensions.dll" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll" archivePath="System.Net.Http.Primitives.dll" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.xml" archivePath="System.Net.Http.xml" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml" archivePath="System.Net.Http.Extensions.xml" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml" archivePath="System.Net.Http.Primitives.xml" lastWriteTime="16/08/2016 07:47:16" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="17/08/2016 09:56:22" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="17/08/2016 10:47:52" />
+  <file source="C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="17/08/2016 09:58:57" />
+</xapCache>
