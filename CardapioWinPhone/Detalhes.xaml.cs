@@ -43,15 +43,7 @@ namespace CardapioWinPhone
             
             Titulo.Text = nome;
         }
-
-        /*private void ovo()
-        {
-           
-            if (NavigationContext.QueryString.TryGetValue("idind", out parameter))
-            {
-                MessageBox.Show(parameter);
-            }
-        }*/
+        
 
         private async void populate()
         {

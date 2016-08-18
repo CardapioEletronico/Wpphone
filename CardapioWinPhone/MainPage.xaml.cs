@@ -21,7 +21,6 @@ namespace CardapioWinPhone
         {
             InitializeComponent();
             Load();
-
         }
 
         public async void Load()
@@ -30,11 +29,11 @@ namespace CardapioWinPhone
             httpClient.BaseAddress = new Uri(ip);
             var response = await httpClient.GetAsync("20131011110061/api/cardapio");
             if (response != null) { 
-            var str = response.Content.ReadAsStringAsync().Result;
-            List<Models.Cardapio> obj = JsonConvert.DeserializeObject<List<Models.Cardapio>>(str);
+                var str = response.Content.ReadAsStringAsync().Result;
+                List<Models.Cardapio> obj = JsonConvert.DeserializeObject<List<Models.Cardapio>>(str);
 
-            CardapiosLista.ItemsSource = null;
-            CardapiosLista.ItemsSource = obj;
+                CardapiosLista.ItemsSource = null;
+                CardapiosLista.ItemsSource = obj;
             }
 
             else
@@ -46,7 +45,6 @@ namespace CardapioWinPhone
 
     private async void txt_Click(object sender, RoutedEventArgs e)
         {
-
             HttpClient httpClient = new HttpClient();
 
             httpClient.BaseAddress = new Uri(ip);
