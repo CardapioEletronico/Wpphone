@@ -19,8 +19,6 @@ namespace CardapioWinPhone
         public ListaProduto()
         {
             InitializeComponent();
-
-            
         }
         protected async override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -41,7 +39,6 @@ namespace CardapioWinPhone
                     if(item.Id == int.Parse(parameter))
                     nome = item.Descricao;
                 }
-                
 
             }
 
@@ -73,11 +70,9 @@ namespace CardapioWinPhone
 
                 ProdutosLista.ItemsSource = null;
                 ProdutosLista.ItemsSource = lista;
-
             }
         }
        
-
         private async void ProdutosLista_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             HttpClient httpClient = new HttpClient();
@@ -88,7 +83,5 @@ namespace CardapioWinPhone
             NavigationService.Navigate(new Uri("/Detalhes.xaml?idind=" + b, UriKind.Relative));
         }
     }
-
-
-    }
+}
 

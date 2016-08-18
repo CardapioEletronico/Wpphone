@@ -20,13 +20,11 @@ namespace CardapioWinPhone
         public Detalhes()
         {
             InitializeComponent();
-      
         }
         string parameter = string.Empty;
         protected async  override void OnNavigatedTo(NavigationEventArgs e)
         {
             string nome = string.Empty;
-            ovo();
             populate();
             if (NavigationContext.QueryString.TryGetValue("idind", out parameter))
             {
@@ -46,14 +44,14 @@ namespace CardapioWinPhone
             Titulo.Text = nome;
         }
 
-        private void ovo()
+        /*private void ovo()
         {
            
             if (NavigationContext.QueryString.TryGetValue("idind", out parameter))
             {
                 MessageBox.Show(parameter);
             }
-        }
+        }*/
 
         private async void populate()
         {
@@ -74,12 +72,14 @@ namespace CardapioWinPhone
                     {
                         TextBlock txtDesc = new TextBlock();
                         txtDesc.Text = "";
-                        txtDesc.Text = ota.Descricao.ToString();
+                        txtDesc.FontSize = 24;
+                        txtDesc.Text += ota.NomeDescricao.ToString();
                         StackLola.Children.Add(txtDesc);
 
                         TextBlock txtPreco = new TextBlock();
-                        txtPreco.Text = "";
-                        txtPreco.Text = ota.Preco.ToString();
+                        txtPreco.Text = "Preco: ";
+                        txtPreco.FontSize = 24;
+                        txtPreco.Text += ota.Preco.ToString();
                         StackLola.Children.Add(txtPreco);
 
                         Image Imagem = new Image();                        
@@ -87,11 +87,13 @@ namespace CardapioWinPhone
                         BitmapImage uhul = new BitmapImage();
                         uhul.UriSource = uri;
                         Imagem.Source = uhul;
+                        Imagem.Width = 200;
+                        Imagem.Height = 200;
                         StackLola.Children.Add(Imagem);
 
-     
-                        
-
+                        Button btn = new Button();
+                        btn.Content = "Pedir";
+                        StackLola.Children.Add(btn);
                     }
                 }
             }
