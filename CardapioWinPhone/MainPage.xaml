@@ -21,12 +21,12 @@
         </Grid.RowDefinitions>
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <TextBlock Text="Trabalho POS" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
             <TextBlock Text="Cardápio" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="10,77,14,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="10,20,14,0">
             <ScrollViewer VerticalScrollBarVisibility="Auto">
                 <phone:LongListSelector x:Name="CardapiosLista" SelectionChanged="CardapiosLista_SelectionChanged">
                     <phone:LongListSelector.ItemTemplate>
@@ -40,7 +40,7 @@
                 </phone:LongListSelector>
             </ScrollViewer>
         </Grid>
-        <Button x:Name="Carregar" Content="Cardápios" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="460" Click="Carregar_Click"/>
+       
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to
