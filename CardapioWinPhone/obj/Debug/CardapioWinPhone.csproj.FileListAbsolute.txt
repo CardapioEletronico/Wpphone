@@ -147,11 +147,3 @@ C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\ProjectArchite
 C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\MDILProjectFiles.xml
 C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\XapCacheFile.xml
 C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\CardapioWinPhone.csprojResolveAssemblyReference.cache
-C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\System.Net.Http\layout.resfiles
-C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\System.Net.Http\layout.resfiles.intermediate
-C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\System.Net.Http\Resources.resfiles
-C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\System.Net.Http\Resources.resfiles.intermediate
-C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\System.Net.Http\pri.resfiles
-C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\System.Net.Http\pri.resfiles.intermediate
-C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\System.Net.Http\priconfig.xml
-C:\Users\gilson\Desktop\Wpphone-master\CardapioWinPhone\obj\Debug\System.Net.Http\priconfig.xml.intermediate

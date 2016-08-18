@@ -72,13 +72,19 @@ namespace CardapioWinPhone
                     {
                         TextBlock txtDesc = new TextBlock();
                         txtDesc.Text = "";
-                        txtDesc.FontSize = 24;
+                        txtDesc.FontSize = 34;
                         txtDesc.Text += ota.NomeDescricao.ToString();
                         StackLola.Children.Add(txtDesc);
 
+                        TextBlock txtNDesc = new TextBlock();
+                        txtNDesc.Text = "Descrição: ";
+                        txtNDesc.FontSize = 34;
+                        txtNDesc.Text += ota.Descricao.ToString();
+                        StackLola.Children.Add(txtNDesc);
+
                         TextBlock txtPreco = new TextBlock();
-                        txtPreco.Text = "Preco: ";
-                        txtPreco.FontSize = 24;
+                        txtPreco.Text = "Preço: ";
+                        txtPreco.FontSize = 34;
                         txtPreco.Text += ota.Preco.ToString();
                         StackLola.Children.Add(txtPreco);
 
@@ -87,8 +93,8 @@ namespace CardapioWinPhone
                         BitmapImage uhul = new BitmapImage();
                         uhul.UriSource = uri;
                         Imagem.Source = uhul;
-                        Imagem.Width = 200;
-                        Imagem.Height = 200;
+                        Imagem.Width = 300;
+                        Imagem.Height = 300;
                         StackLola.Children.Add(Imagem);
 
                         Button btn = new Button();

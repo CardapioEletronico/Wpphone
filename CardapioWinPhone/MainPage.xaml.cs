@@ -20,10 +20,24 @@ namespace CardapioWinPhone
         public MainPage()
         {
             InitializeComponent();
+            Load();
 
         }
 
         private async void Carregar_Click(object sender, RoutedEventArgs e)
+        {
+            HttpClient httpClient = new HttpClient();
+            httpClient.BaseAddress = new Uri(ip);
+            var response = await httpClient.GetAsync("20131011110061/api/cardapio");
+
+            var str = response.Content.ReadAsStringAsync().Result;
+            List<Models.Cardapio> obj = JsonConvert.DeserializeObject<List<Models.Cardapio>>(str);
+
+            CardapiosLista.ItemsSource = null;
+            CardapiosLista.ItemsSource = obj;
+        }
+
+        public async void Load()
         {
             HttpClient httpClient = new HttpClient();
             httpClient.BaseAddress = new Uri(ip);

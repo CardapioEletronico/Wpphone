@@ -32,8 +32,8 @@
                     <phone:LongListSelector.ItemTemplate>
                         <DataTemplate>
                             <StackPanel>
-                                <TextBlock Text="{Binding Descricao}" Style="{StaticResource PhoneTextTitle3Style}" />
-                                <TextBlock Text="{Binding Id}" Style="{StaticResource PhoneTextSubtleStyle}" />
+                                <TextBlock Text="{Binding Descricao}" Style="{StaticResource PhoneTextLargeStyle}" Margin="12" />
+                                
                             </StackPanel>
                         </DataTemplate>
                     </phone:LongListSelector.ItemTemplate>
